@@ -1,0 +1,35 @@
+0 verbose cli /usr/bin/node-20 /usr/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.20.0
+3 silly config load:file:/usr/lib/nodejs20/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/cloudshell-user/.npmrc
+5 silly config load:file:/usr/lib/nodejs20/etc/npmrc
+6 verbose title npm create vite@latest ai-recipe-generator --template react-ts -y
+7 verbose argv "create" "vite@latest" "ai-recipe-generator" "--" "--template" "react-ts" "-y"
+8 verbose logfile logs-max:10 dir:/home/cloudshell-user/.npm/_logs/2026-02-27T08_40_30_265Z-
+9 verbose logfile /home/cloudshell-user/.npm/_logs/2026-02-27T08_40_30_265Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:2041577472 maxSize:510394368 maxEntrySize:255197184
+12 http fetch GET 200 https://registry.npmjs.org/create-vite 70ms (cache miss)
+13 silly packumentCache heap:2041577472 maxSize:510394368 maxEntrySize:255197184
+14 http fetch GET 200 https://registry.npmjs.org/npm 148ms
+15 verbose stack Error: canceled
+15 verbose stack     at exec (/usr/lib/nodejs20/lib/node_modules/npm/node_modules/libnpmexec/lib/index.js:281:19)
+15 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+15 verbose stack     at async Init.execCreate (/usr/lib/nodejs20/lib/node_modules/npm/lib/commands/init.js:136:5)
+15 verbose stack     at async Init.exec (/usr/lib/nodejs20/lib/node_modules/npm/lib/commands/init.js:44:14)
+15 verbose stack     at async Npm.exec (/usr/lib/nodejs20/lib/node_modules/npm/lib/npm.js:207:9)
+15 verbose stack     at async module.exports (/usr/lib/nodejs20/lib/node_modules/npm/lib/cli/entry.js:74:5)
+16 error canceled
+17 verbose cwd /home/cloudshell-user
+18 verbose os Linux 6.1.161-183.298.amzn2023.x86_64
+19 verbose node v20.20.0
+20 verbose npm  v10.8.2
+21 notice
+21 notice New [31mmajor[39m version of npm available! [31m10.8.2[39m -> [34m11.11.0[39m
+21 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.11.0[39m
+21 notice To update run: [4mnpm install -g npm@11.11.0[24m
+21 notice  { force: true, [Symbol(proc-log.meta)]: true }
+22 verbose exit 1
+23 verbose code 1
+24 error A complete log of this run can be found in: /home/cloudshell-user/.npm/_logs/2026-02-27T08_40_30_265Z-debug-0.log
